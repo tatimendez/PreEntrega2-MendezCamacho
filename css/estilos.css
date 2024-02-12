@@ -119,14 +119,18 @@ h4{
 /* Tutoriales */
 .videos{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    flex-direction: row;
-
+    justify-content:center;
+    padding-bottom: 20px;
 }
 
-.videos p{
+.text{
     width: 50%;
     font-size: 30px;
+    color: #BC6135;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 /*Recursos*/
@@ -225,4 +229,44 @@ form div{
     width: 30%;
     position: relative;
     left: 35%;
+}
+
+@media only screen and (max-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "im6 im5"
+        "im9 im1"
+        "im2 im4"
+        "im8 im7";
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+        "im6"
+        "im5"
+        "im9"
+        "im1"
+        "im2"
+        "im4"
+        "im8"
+        "im7";
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    .videos iframe{
+        width: auto;
+    }
 }
