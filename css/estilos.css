@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#E6E1C1;
+    text-align: justify;
+}
+
+/* Barra de Navegación */
+.menu{
+    background-color:#342425;
+    list-style: none;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding:10px
+}
+
+.menu li a{
+    padding:10px;
+    color:#E6E1C1;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu li a:hover{
+    background-color: #BC6135;
+    border-radius: 5px;
+    padding:10px
+}
+
+/* Header */
+header{
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    color:#E6E1C1;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+}
+
+/*Main*/   
+h2{
+    font-family: 'Open Sans', sans-serif;
+    color:#7c4532;
+    text-align: center;
+    font-size: 30px;  
+    padding-top: 15px;
+}
+
+.desc{
+    text-align: center;
+    color: #BC6135;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+h3{
+    color:#7c4532;
+    background-color:#F2C879;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #BC6135;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.lista{
+    margin-left:10px;
+    padding: 20px;
+    margin-left: 30px;
+    list-style-type:square;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#8A2A23
+}
+
+/* Footer */
+footer{
+    background-color: #342425;
+    font-family: 'Open Sans', sans-serif;
+    padding:30px;
+    margin-top: 60px;
+}
+
+h4{
+    color: #E6E1C1;
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+    line-height: 3;
+}
+
+/* Tutoriales */
+.videos{
+    display: flex;
+    align-items: center;
+}
+
+.videos p{
+    width: 50%;
+    font-size: 30px;
+}
+
+
+
+/*Recursos*/
+img{
+    width: 350px;
+    margin-left:100px;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+/*InspirArte*/
+li a{
+    color:#8A2A23;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Contacto */
+.titulos{
+    text-align:center;
+    color: #7c4532;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+form div{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    border: 2px solid brown;
+    color:#8A2A23;
+    text-align: center;
+    padding: 5px;
+    margin: 7px;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
