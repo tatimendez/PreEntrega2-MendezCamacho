@@ -11,31 +11,27 @@ body{
 
 /* Barra de Navegación */
 
-.menu{
-    background-color:#342425;
-    list-style: none;
-    margin: 5px auto;
-    text-align: center;
+.logo{
+    width: 50px;
 }
 
-.menu li{
-    display: inline-block;
-    text-align: center;
-    padding:10px
+.sidebar{
+    background-color: #342425;
 }
 
-.menu li a{
-    padding:10px;
-    color:#E6E1C1;
-    margin: 10px;
-    text-decoration: none;
+.navbar{
+    background-color: #342425;
     font-family: 'Open Sans', sans-serif;
+    color: #E6E1C1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.menu li a:hover{
+.nav-item a:hover{
     background-color: #BC6135;
     border-radius: 5px;
-    padding:10px
+    padding: 10px;
 }
 
 /* Header */
@@ -145,6 +141,14 @@ img{
     align-items: center;
 }
 
+.contenedor li a{
+    color:#8A2A23;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
 /*Galeria*/
 
 .galeria{
@@ -198,15 +202,6 @@ img{
 
 .im9{
     grid-area: im9;
-}
-
-/*InspirArte*/
-li a{
-    color:#8A2A23;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px;
 }
 
 /* Contacto */
