@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:$colcrema;
+    text-align: justify;
+}
+
+/*Main*/
+main{
+    h2{
+        font-family: $fuente;
+        color:$colmclaro;
+        text-align: $alcenter;
+        font-size: 30px;  
+        padding-top: 15px;
+    }
+    h3{
+        color:$colmclaro;
+        background-color:$colamarillo;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-family: $fuente;
+        text-align: $alcenter;
+    }
+    p{
+        color: $colnaranja;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-family: $fuente;
+        font-weight: normal;
+        line-height: 1.5;
+        padding: 10px;
+    }
+}
+
+/*Header*/
+header{
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+
+    h1{
+        text-align: $alcenter;
+        padding: 30px;
+        color:$colcrema;
+        margin-bottom: 20px;
+        font-family: $fuentesec;
+        font-size: 80px;
+    }
+}
+
+
+/*Barra de navegacion*/
+.navbar{
+    background-color: $colmarron;
+    font-family: $fuente;
+    color: $colcrema;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    .logo{
+        width: 50px;
+    }
+
+    .sidebar{
+        background-color:$colmarron;
+
+        .nav-item{
+            a:hover{
+                    background-color: $colnaranja;
+                    border-radius: 5px;
+                    padding: 10px;
+            }
+        }
+    }
+}
+
+/*Footer*/
+footer{
+    background-color: $colmarron;
+    font-family: $fuente;
+    padding:30px;
+    margin-top: 60px;
+
+    h4{
+        color: $colcrema;
+        font-weight: normal;
+        text-align: $alcenter;
+        font-size: 13px;
+        line-height: 3;
+    }
+}

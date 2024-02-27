@@ -1,0 +1,47 @@
+/* MEDIA QUERIES GALERIA */
+@media only screen and (max-width: 768px){
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "im6 im5"
+        "im9 im1"
+        "im2 im4"
+        "im8 im7";
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-areas:
+        "im6"
+        "im5"
+        "im9"
+        "im1"
+        "im2"
+        "im4"
+        "im8"
+        "im7";
+    }
+}
+
+/* MEDIA QUERIES CONTACTO*/
+
+@media only screen and (max-width: 768px){
+    .formulario{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "nombre1"
+        "email1"
+        "numero1"
+        "texto1"
+        "enviar1";
+
+        .form{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/*Tutoriales*/
+main{
+    .videos{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: $alcenter;
+        justify-content:$alcenter;
+        padding-bottom: 20px;
+        
+        .text{
+            width: 50%;
+            font-size: 30px;
+            color: $colnaranja;
+            font-family: $fuente;
+            line-height: 1.5;
+        }
+    }
+
+}

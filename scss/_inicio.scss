@@ -1,0 +1,20 @@
+/*Inicio*/
+main{
+    .desc{
+        text-align: $alcenter;
+        color: $colnaranja;
+        font-size: 30px;
+        font-family: $fuente;
+        line-height: 1.5;
+        padding-bottom: 30px;
+    }
+    .lista{
+        margin-left:10px;
+        padding: 20px;
+        margin-left: 30px;
+        list-style-type:square;
+        font-family: $fuente;
+        font-weight: bold;
+        color:$colrojo;
+    }
+}

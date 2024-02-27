@@ -1,0 +1,37 @@
+/*Contacto*/
+main{
+    .titulos{
+        text-align:$alcenter;
+        color: $colmclaro;
+        font-family: $fuentesec;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+
+    .formulario{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+        "f1 f2"
+        "f3 f3"
+        "f4 f4"
+        "f5 f5";
+
+        .form{
+            font-family: $fuente;
+            color:$colcrema;
+            border: 2px solid $colmarron;
+            background-color: #4d3638e1;
+            text-align: $alcenter;
+            padding: 5px;
+            margin: 7px;
+        }
+    }
+}
+
+@for $i from 1 through 5{
+    .f#{$i}{
+        grid-area: f#{$i};
+    }
+} 
