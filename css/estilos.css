@@ -213,18 +213,45 @@ img{
     padding-bottom: 5px;
 }
 
-form div{
+.formulario{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "nombre1 email1"
+    "numero1 numero1"
+    "texto1 texto1"
+    "enviar1 enviar1";
+}
+
+.form{
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
-    border: 2px solid brown;
-    color:#8A2A23;
+    color:#E6E1C1;
+    border: 2px solid #342425;
+    background-color: #4d3638e1;
     text-align: center;
     padding: 5px;
     margin: 7px;
-    width: 30%;
-    position: relative;
-    left: 35%;
 }
+
+.nombre1{
+    grid-area: nombre1;
+}
+.email1{
+    grid-area: email1;
+}
+.numero1{
+    grid-area: numero1;
+}
+.texto1{
+    grid-area: texto1;
+}
+.enviar1{
+    grid-area: enviar1;
+    text-align: center;
+}
+
+/* MEDIA QUERIES GALERIA */
 
 @media only screen and (max-width: 768px){
     .galeria{
@@ -263,5 +290,24 @@ form div{
 
     .videos iframe{
         width: auto;
+    }
+}
+
+/* MEDIA QUERIES CONTACTO*/
+
+@media only screen and (max-width: 768px){
+    .formulario{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "nombre1"
+        "email1"
+        "numero1"
+        "texto1"
+        "enviar1";
+    }
+
+    .form{
+        width: 100%;
     }
 }
