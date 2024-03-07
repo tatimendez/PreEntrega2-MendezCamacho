@@ -17,15 +17,15 @@ main{
         "f3 f3"
         "f4 f4"
         "f5 f5";
-
+        text-align: $alcenter;
+        
         .form{
             font-family: $fuente;
             color:$colcrema;
-            border: 2px solid $colmarron;
+            border: 1px solid $colmarron;
             background-color: #4d3638e1;
-            text-align: $alcenter;
-            padding: 5px;
-            margin: 7px;
+            padding: 3px;
+            margin-top: 5px;
         }
     }
 }
